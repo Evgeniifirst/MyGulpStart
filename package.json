@@ -35,13 +35,5 @@
 		"sass": "^1.68.0",
 		"style-loader": "^3.3.3",
 		"webpack-stream": "^7.0.0"
-	},
-	"babel": {
-		"presets": [
-			"@babel/preset-env"
-		]
-	},
-	"browserslist": [
-		"last 5 versions"
-	]
+	}
 }
