@@ -1,0 +1,27 @@
+.footer {
+	background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
+	padding: 15px 0;
+	font-size: 32px;
+	color: #fff;
+
+	.footer {
+		&__inner {}
+
+		&__link {
+			display: inline-block;
+			font-size: 32px;
+			color: #fff;
+			transition: all .5s;
+
+			&:hover {
+				color: #c8d1f6;
+				transform: scale(1.1);
+				text-decoration: underline;
+			}
+		}
+	}
+
+	@media (max-width: 1230px) {
+		font-size: 26px;
+	}
+}

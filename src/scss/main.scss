@@ -1,0 +1,34 @@
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+@import "./base/sticky-footer";
+@import "./base/fonts";
+@import "./blocks/*.scss";
+
+
+
+
+.main{
+font-size: 70px;
+	font-weight: 600;
+	background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+@import "./media";
+
+

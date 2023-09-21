@@ -1,0 +1,46 @@
+.header {
+	background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
+	padding: 15px 0;
+
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+
+.menu {
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		column-gap: 20px;
+	}
+
+	&__item {}
+
+	&__link {
+		display: inline-block;
+		font-size: 24px;
+		color: #fff;
+		transition: all .5s;
+
+	}
+}
+
+.menu__link:hover {
+	display: inline-block;
+	color: #c8d1f6;
+	transform: scale(1.1);
+	text-decoration: underline;
+
+}
+
+@media (max-width: 991.98px) {
+	.menu {
+		display: none;
+	}
+}
