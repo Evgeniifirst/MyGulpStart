@@ -1,10 +1,17 @@
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
 .main {
-	font-size: 40px;
-	font-weight: 400;
+	flex: 1 1 auto;
+	padding-top:75px;
+	font-size: 70px;
+	font-weight: 600;
 	background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
 	color: transparent;
 	background-clip: text;
 	-webkit-background-clip: text;
-
-
 }
+

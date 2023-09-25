@@ -4,22 +4,21 @@
 	font-size: 32px;
 	color: #fff;
 
-	.footer {
-		&__inner {}
+	&__inner {}
 
-		&__link {
-			display: inline-block;
-			font-size: 32px;
-			color: #fff;
-			transition: all .5s;
+	&__link {
+		display: inline-block;
+		font-size: 32px;
+		color: #fff;
+		transition: all .5s;
 
-			&:hover {
-				color: #c8d1f6;
-				transform: scale(1.1);
-				text-decoration: underline;
-			}
+		&:hover {
+			color: #c8d1f6;
+			transform: scale(1.1);
+			text-decoration: underline;
 		}
 	}
+
 
 	@media (max-width: 1230px) {
 		font-size: 26px;
